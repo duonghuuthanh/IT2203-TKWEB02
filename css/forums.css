@@ -1,0 +1,117 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: cadetblue;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+header {
+    background: linear-gradient(darkblue, blue);
+}
+
+.subject {
+    color: white;
+    text-shadow: 3px 4px 3px whitesmoke;
+    font-size: 2.5rem;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+}
+
+.submenu::after {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent bisque transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 10px;
+}
+
+.sub:hover .submenu {
+    display: block;
+}
+
+.forum {
+    background-color: beige;
+    padding: 0.5rem;
+    border-bottom: 1px solid blue;
+}
+
+.forum:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+}
+
+h2.subject {
+    background-color: darkblue;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ads > div {
+    width: 9%;
+    background: linear-gradient(darkblue, blue);
+    color: white;
+    text-align: center;
+    position: fixed;
+    margin-top: 0.5rem;
+    padding: 7rem 0;
+    border-radius: 10px;
+}
+
+.ads > .left {
+    left: 0.5%;
+}
+
+.ads > .right {
+    right: 0.5%;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    margin-top: 0.5rem;
+}

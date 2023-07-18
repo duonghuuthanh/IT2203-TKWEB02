@@ -1,0 +1,26 @@
+table.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table.main > thead {
+    background-image: url(../images/bg.jpg);
+}
+
+h1.subject {
+    text-align: center;
+    color: blue;
+    text-shadow: 3px 4px 3px gold;
+}
+
+table.sub1 {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
